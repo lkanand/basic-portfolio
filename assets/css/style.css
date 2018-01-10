@@ -1,7 +1,11 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
 header{
 	margin: 0px;
 	padding: 0px;
-	border-bottom: 1px solid #ccc;
 }
 
 h1{
@@ -13,13 +17,14 @@ h1{
 	width: 200px;
 	text-align: center;
 	margin: 0px 0px 0px 150px;
+	float: left;
 }
 
-/*
 #navigation{
 	list-style-type: none;
-	margin-right: 150px;
 	float: right;
+	margin-right: 150px;
+	margin-top: 28px;
 }
 
 #navigation li{
@@ -52,13 +57,13 @@ h1{
 .nav:hover {
 	text-decoration: underline;
 }
-*/
 
 #content{
-	background: url("assets/images/dust_scratches.jpg") cover no-repeat;
+	background-image: url("../images/dust_scratches.jpg"); 
 	overflow: auto;
 	width: 100%;
-	/* float: clear; */
+	padding-bottom: 45px;
+	border-top: 1px solid #ccc;
 }
 
 #about_me{
@@ -131,8 +136,8 @@ h3{
 }
 
 .accounts{
-	height: 60px;
-	width: 60px;
+	height: 55px;
+	width: 55px;
 }
 
 footer{
@@ -141,7 +146,7 @@ footer{
 	font-weight: 200;
 	font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
 	font-size: 12px;
-	margin-top: 45px;
+	margin-top: 0px;
 	text-align: center;
 	padding-top: 35px;
 	padding-bottom: 35px;
