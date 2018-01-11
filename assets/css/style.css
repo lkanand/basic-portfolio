@@ -1,6 +1,6 @@
 body{
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 }
 
 header{
@@ -103,9 +103,13 @@ h2{
 	float: right;
 }
 
-.left_image, .right_image{
+.portfolio_image{
 	width: 270px;
 	height: 180px;
+}
+
+.portfolio_image:hover{
+	opacity: .5;
 }
 
 h4{
@@ -159,6 +163,11 @@ input::placeholder{
 	margin-bottom: 25px;
 }
 
+#submit:hover{
+	box-shadow: 0 6px 16px 0 rgba(0,0,0,0.24);
+	cursor: pointer;
+}
+
 #me{
 	margin-left: 20px;
 	margin-right: 20px;
@@ -208,6 +217,14 @@ h3{
 .accounts{
 	height: 55px;
 	width: 55px;
+}
+
+.accounts:hover{
+	opacity: .5;
+}
+
+#excludes_footer{
+	flex: 1 0 auto;
 }
 
 footer{
